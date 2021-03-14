@@ -1,0 +1,28 @@
+{
+  "name": "mongodb-helper",
+  "version": "0.1.0",
+  "description": "A database helper package which simplifies connecting to and querying a MongoDB database.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solenoden/mongodb-helper.git"
+  },
+  "keywords": [
+    "mongodb",
+    "dbhelper"
+  ],
+  "author": "Gavin de Bruyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Solenoden/mongodb-helper/issues"
+  },
+  "homepage": "https://github.com/Solenoden/mongodb-helper#readme",
+  "dependencies": {
+    "mongodb": "3.6.2",
+    "eslint": "7.22.0",
+    "q": "1.5.1"
+  }
+}
